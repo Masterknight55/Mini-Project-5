@@ -100,7 +100,7 @@ void translateIR()
       //do nothing
     }
     myServo.write(servoPosition);
-    delay(500);
+    delay(250);
     break;
 
   //Fast Forward Case
@@ -122,8 +122,8 @@ void translateIR()
     }
     myServo.write(servoPosition);
 
-    
-    delay(500);
+
+    delay(250);
     break;
   }
 
